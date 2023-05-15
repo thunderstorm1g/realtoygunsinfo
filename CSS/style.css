@@ -4,7 +4,7 @@
 		    width: 1000px;
 			box-sizing: border-box;
 			margin: 20px auto;
-			background-color: #f1f1f1;
+			background-color: #FFFFFF;
 			padding: 20px;
 		} 
 		
@@ -17,7 +17,7 @@
 		#logo {
 		    width: 200px;
 			font-size: 300%;
-			background-color: #2596be;
+			background-color: #00AADA;
 			text-align: center;
 		}
 		
@@ -25,7 +25,7 @@
 		    margin-left: 30px;
 			width: calc(100% - 230px);
 			font-size: 300%;
-			background-color: #8E8E8E;
+			background-color: #00AADA;
 			text-align: center;
 		}
 		
@@ -33,6 +33,7 @@
 		    display: flex;
 			flex-wrap: wrap;
 			margin-top: 30px;
+			background-color:#FFFFFF;
 		}
 
 		}
@@ -40,7 +41,7 @@
 		#content {
 		    margin-left: 30px;
 			width: calc(100% - 230px);
-			background-color:#8E8E8E;
+			background-color:#FFFFFF;
 		}
 		
 		#footer {
@@ -51,12 +52,12 @@
 		#copyright {
 		    width: 50%;
 			margin-right: 15px;
-			background-color:#8E8E8E;
+			background-color:#00AADA;
 		}
 
 		#footerMenu {
 		    width: 50%;
-			background-color: #8E8E8E;
+			background-color: #00AADA;
 			margin-left: 15px;
 		}
 		
@@ -65,6 +66,7 @@
 		#mainMenu {
 		    width: 100%;
 			margin-top: 30px;
+			background-color:#000000;
 		}
 		
 		.menu {
@@ -88,7 +90,7 @@
 		    width: 100%;
 			padding: 6px 15px;
 			text-decoration: none;
-			background-color: #8E8E8E;
+			background-color: #00AADA;
 			display: block;
 			box-sizing: border-box;
 			color: #111111;
@@ -98,7 +100,7 @@
 
 		
 		.menu li.item a:hover {
-		    background-color: #8E8E8E;
+		    background-color: #DA00B4;
 			color: #f1f1f1;
 		}
 		
