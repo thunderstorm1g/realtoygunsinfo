@@ -1,0 +1,109 @@
+  body {background-color: #111111;} 
+		 
+	    #page {
+		    width: 1000px;
+			box-sizing: border-box;
+			margin: 20px auto;
+			background-color: #f1f1f1;
+			padding: 20px;
+		} 
+		
+		#header {
+		    display: flex;
+			flex-wrap: wrap;
+			
+		}
+		
+		#logo {
+		    width: 200px;
+			font-size: 300%;
+			background-color: #2596be;
+			text-align: center;
+		}
+		
+		#websiteTitle {
+		    margin-left: 30px;
+			width: calc(100% - 230px);
+			font-size: 300%;
+			background-color: #8E8E8E;
+			text-align: center;
+		}
+		
+		#main {
+		    display: flex;
+			flex-wrap: wrap;
+			margin-top: 30px;
+		}
+
+		}
+		
+		#content {
+		    margin-left: 30px;
+			width: calc(100% - 230px);
+			background-color:#8E8E8E;
+		}
+		
+		#footer {
+		    display: flex; 
+			margin-top: 30px;
+		}
+		
+		#copyright {
+		    width: 50%;
+			margin-right: 15px;
+			background-color:#8E8E8E;
+		}
+
+		#footerMenu {
+		    width: 50%;
+			background-color: #8E8E8E;
+			margin-left: 15px;
+		}
+		
+		/* CSS Menü */
+		
+		#mainMenu {
+		    width: 100%;
+			margin-top: 30px;
+		}
+		
+		.menu {
+		    list-style-type: none;
+			display: flex;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.menu li.item {
+		    flex-grow: 1; 
+			margin-right: 2px;
+		} 
+
+		.menu li.item:last-child {
+			margin-right: 0px;
+		}
+		
+		.menu li.item a {     
+		    width: 100%;
+			padding: 6px 15px;
+			text-decoration: none;
+			background-color: #8E8E8E;
+			display: block;
+			box-sizing: border-box;
+			color: #111111;
+			text-align: center;
+			
+		} 
+
+		
+		.menu li.item a:hover {
+		    background-color: #8E8E8E;
+			color: #f1f1f1;
+		}
+		
+		.menu li.item a.active {
+		    background-color: #8E8E8E;
+			color: #000000;
+		}
+		

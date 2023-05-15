@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML-Grundgerüst</title>
+	<style>
+	     body {background-color: #111111;} 
+		 
+	    #page {
+		    width: 1000px;
+			box-sizing: border-box;
+			margin: 20px auto;
+			background-color: #f1f1f1;
+			padding: 20px;
+		} 
+		
+		#header {
+		    display: flex;
+			flex-wrap: wrap;
+			
+		}
+		
+		#logo {
+		    width: 200px;
+			font-size: 300%;
+			background-color: #2596be;
+			text-align: center;
+		}
+		
+		#websiteTitle {
+		    margin-left: 30px;
+			width: calc(100% - 230px);
+			font-size: 300%;
+			background-color: #8E8E8E;
+			text-align: center;
+		}
+		
+		#main {
+		    display: flex;
+			flex-wrap: wrap;
+			margin-top: 30px;
+		}
+
+		}
+		
+		#content {
+		    margin-left: 30px;
+			width: calc(100% - 230px);
+			background-color:#8E8E8E;
+		}
+		
+		#footer {
+		    display: flex; 
+			margin-top: 30px;
+		}
+		
+		#copyright {
+		    width: 50%;
+			margin-right: 15px;
+			background-color:#8E8E8E;
+		}
+
+		#footerMenu {
+		    width: 50%;
+			background-color: #8E8E8E;
+			margin-left: 15px;
+		}
+		
+		/* CSS Menü */
+		
+		#mainMenu {
+		    width: 100%;
+			margin-top: 30px;
+		}
+		
+		.menu {
+		    list-style-type: none;
+			display: flex;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.menu li.item {
+		    flex-grow: 1; 
+			margin-right: 2px;
+		} 
+
+		.menu li.item:last-child {
+			margin-right: 0px;
+		}
+		
+		.menu li.item a {     
+		    width: 100%;
+			padding: 6px 15px;
+			text-decoration: none;
+			background-color: #8E8E8E;
+			display: block;
+			box-sizing: border-box;
+			color: #111111;
+			text-align: center;
+			
+		} 
+
+		
+		.menu li.item a:hover {
+		    background-color: #8E8E8E;
+			color: #f1f1f1;
+		}
+		
+		.menu li.item a.active {
+		    background-color: #8E8E8E;
+			color: #000000;
+		}
+		
+	</style>
+  </head>
+  <body>
+	<div id="page">
+	    <div id="header">
+			<div id="websiteTitle">Suchbegriff ...</div>
+		</div>
+		
+		<div id="mainMenu">
+				<nav>
+				    <ul class="menu">
+					    <li class="item"><a href="..\..\gergor\homepage\homepage.html" target="_self" class="active">Übersicht</a></li>  
+						<li class="item"><a href="..\..\oskar\info-page\infopage.html" target="_self">Informationen</a></li> 
+						<li class="item"><a href="..\..\gergor\produktliste\produktliste.html" target="_self">Produkte</a></li> 
+						<li class="item"><a href="..\..\gergor\standorte\standorte.html" target="_self">Standorte</a></li> 
+						<li class="item"><a href="..\..\oskar\impressum\impressum.html" target="_self">Impressum</a></li>
+						<li class="item"><a href="..\..\oskar\verkaufseite\verkaufsseite.html" target="_self">Verkauf</a></li>
+					</ul>
+				</nav>		
+			</div>
+	
+		    <div id="main"> 
+			<div id="content">Hier kommen alle Inhalte hinein</div>
+		</div>
+		<div id="footer">
+		    <div id="copyright">Adresse</div>
+			<div id="footerMenu">Adresse eingeben um die nächsten Lager zu finden </div>
+		</div>
+	</div>	
+  </body>
+</html>
