@@ -4,6 +4,60 @@
     <meta charset="utf-8">
     <title>real-toy-gun</title>
 	<link rel="stylesheet" type="text/css" href="..\..\..\CSS\style.css">
+	  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .product {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    
+    .product-image {
+      max-width: 100px;
+      float: left;
+      margin-right: 20px;
+    }
+    
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-price {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .total-price {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: right;
+    }
+    
+    .checkout-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .checkout-button:hover {
+      background-color: #45a049;
+    }
+  </style>
   </head>
   <body>
 	<div id="page">
@@ -26,12 +80,29 @@
 			</div>
 	
 		    <div id="main"> 
-			<div id="content">Hier kommen alle Inhalte hinein</div>
+			<div id="content">
+			  <div class="container">
+    <h1>Warenkorb</h1>
+    
+    <div class="product">
+      <img src="..\..\oskar\produktseite\test.jfif" alt="Product 1" class="product-image">
+      <h2 class="product-title">(produktname)</h2>
+      <p class="product-price">99,99€</p>
+    </div>
+    
+    <div class="total-price">
+      Gesamtpreis: 99,99€
+    </div>
+    
+    <button class="checkout-button">Zur Kasse</button>
+  </div>
+			
 		</div>
 		<div id="footer">
-		    <div id="copyright">Adresse</div>
-			<div id="footerMenu">Adresse eingeben um die nächsten Lager zu finden </div>
+		    <div id="copyright">&copy; real-toy-gun</div>
+			<div id="footerMenu">Support: 9988187</div>
 		</div>
+	</div>
 	</div>	
   </body>
 </html>

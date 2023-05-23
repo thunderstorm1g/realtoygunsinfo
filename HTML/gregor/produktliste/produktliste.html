@@ -4,6 +4,44 @@
     <meta charset="utf-8">
     <title>real-toy-gun</title>
 	<link rel="stylesheet" type="text/css" href="..\..\..\CSS\style.css">
+	  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .product {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    
+    .product-image {
+      max-width: 150px;
+      float: left;
+      margin-right: 20px;
+    }
+    
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-description {
+      margin-bottom: 10px;
+    }
+    
+    .product-price {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
   </head>
   <body>
 	<div id="page">
@@ -27,11 +65,15 @@
 	
 		    <div id="main"> 
 			<div id="content"></div>
-		</div>
-		<div id="footer">
-		    <div id="copyright">Adresse</div>
-			<div id="footerMenu">Adresse eingeben um die nächsten Lager zu finden </div>
-		</div>
+		<div class="container">
+    <div class="product">
+      <img src="..\..\oskar\produktseite\test.jfif" alt="Product 1" class="product-image">
+      <h2 class="product-title">(produktname)</h2>
+      <p class="product-description">(beschreibung)</p>
+      <p class="product-price">99.99€</p>
+	  <li class="item"><a href="..\..\oskar\produktseite\produktseite.html" target="_self">hier gehts zum Produkt</a></li>
+    </div>
+    
 	</div>	
   </body>
 </html>

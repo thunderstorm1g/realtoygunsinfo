@@ -4,6 +4,43 @@
     <meta charset="utf-8">
     <title>real-toy-gun</title>
 	<link rel="stylesheet" type="text/css" href="..\..\..\CSS\style.css">
+		<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .delivery-status {
+      margin-bottom: 20px;
+    }
+    
+    .delivery-status label {
+      display: inline-block;
+      width: 120px;
+      font-weight: bold;
+    }
+    
+    .delivery-status span {
+      font-weight: bold;
+    }
+    
+    .delivery-status .status {
+      color: green;
+    }
+    
+    .delivery-status .status.pending {
+      color: orange;
+    }
+    
+    .delivery-status .status.failed {
+      color: red;
+    }
+</style>
   </head>
   <body>
 	<div id="page">
@@ -26,12 +63,30 @@
 			</div>
 	
 		    <div id="main"> 
-			<div id="content">Hier kommen alle Inhalte hinein</div>
-		</div>
+			<div id="content">
+			    <h1>Lieferungsstatus</h1>
+    
+    <div class="delivery-status">
+      <label>Auftragsnummer:</label>
+      <span>1878818</span>
+    </div>
+    
+    <div class="delivery-status">
+      <label>Status:</label>
+      <span class="status">Nicht lieferbar</span>
+    </div>
+    
+    <div class="delivery-status">
+      <label>Voraussichtliches Lieferdatum:</label>
+      <span>25. Mai 2023</span>
+    </div>
+
+		
 		<div id="footer">
-		    <div id="copyright">Adresse</div>
-			<div id="footerMenu">Adresse eingeben um die nächsten Lager zu finden </div>
+		    <div id="copyright">&copy; real-toy-gun</div>
+			<div id="footerMenu">Support: 9988187</div>
 		</div>
-	</div>	
+	</div>
+	</div>
   </body>
 </html>
