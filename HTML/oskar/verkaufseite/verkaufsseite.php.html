@@ -43,6 +43,10 @@
       border-radius: 4px;
 	  
     }
+	
+	.product-description {
+	padding-top: 20px;
+	}
 	</style>
  </head>
   <body>
@@ -65,17 +69,20 @@
 				</nav>		
 			</div>
   <div class="container">
-    <h1>(Produktname)</h1>
-    <div class="product-image">
-      <img src="test.jfif"" alt="(Product Image)">
-    </div>
+  <div>
+  <input name="datei" type="file" size="50" accept="image/*">
+  </div>
+                     <label for="product-name">Name:</label>
+        <input type="text" id="name:" name="name" required>
     <div class="product-description">
-      <p>(beschreibung)</p>
+                    <label for="beschreibung">Beschreibung:</label>
+        <input type="text" id="beschreibung:" name="beschreibung" required>
     </div>
     <div class="product-price">
-      99.99€
+              <label for="preis">Preis:</label>
+        <input type="text" id="preis" name="preis" required>
     </div>
-    <a href="#" class="buy-button">Buy Now</a>
+    <a href="#" class="buy-button">Sell NOW</a>
   </div>
   </body>
 </html>
